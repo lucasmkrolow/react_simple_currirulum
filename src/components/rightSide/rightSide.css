@@ -1,9 +1,10 @@
 .rightside {
   background-color: white;
-  width: 50%;
+  width: 50vw;
   color: #003b5d;
+  position: absolute;
   padding: 0px;
-  top: 116px;
+  top: 0;
   bottom: 0;
   right: 0;
 }

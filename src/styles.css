@@ -58,6 +58,12 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  top: 116px;
+  right: 0;
+  left: 0;
 }
 .lefticons {
   display: none;
@@ -83,8 +89,9 @@ img {
   .rightside {
     position: absolute;
     right: 0;
-    left: 50px;
+    //left: 50px;
     z-index: 500;
+    width: calc(100vw - 50px);
   }
   .leftwrap {
     transition: all 0.3s ease;

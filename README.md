@@ -1,2 +1,5 @@
 # react_simple_currirulum
-Created with CodeSandbox
+
+Curriculo simples em react.
+
+Os dados apresentados estão no arquivo data.json.
