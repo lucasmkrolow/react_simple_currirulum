@@ -7,12 +7,12 @@ import {
   faLocationPin,
   faCalendarDay
 } from "@fortawesome/free-solid-svg-icons";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import "./headerBar.css";
 import profilePicture from "../../img/profilepic.jpeg";
 import * as data from "../../data.json";
 
-library.add(faEnvelope, faPhone, faLocationPin, faCalendarDay, faLinkedin);
+library.add(faEnvelope, faPhone, faLocationPin, faCalendarDay, faLinkedin, faGithub);
 
 export default function Headerbar() {
   const calculate_age = (dob) => {
@@ -70,6 +70,14 @@ export default function Headerbar() {
           </label>
           <a rel="noreferrer" target="_blank" href={data.linkedin}>
             <span>{data.linkedin}</span>
+          </a>
+        </div>
+        <div className="github">
+          <label>
+            <FontAwesomeIcon icon="fa-brands fa-github" /> 
+          </label>
+          <a rel="noreferrer" target="_blank" href={data.github}>
+            <span>{data.github}</span>
           </a>
         </div>
         <div className="sobre">
