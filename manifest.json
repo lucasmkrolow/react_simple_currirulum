@@ -1,16 +1,18 @@
 {
   "short_name": "React Curriculum",
   "name": "Curriculo em React",
+  "description": "Este é um Curriculo desenvolvido em React",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "favicon.png",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/x-icon",
+      "purpose": "any maskable"
     }
   ],
   "start_url": "./index.html",
   "scope": "./",
-  "display": "standalone",
+  "display": "fullscreen",
   "theme_color": "#000000",
   "background_color": "#0079bf"
 }
