@@ -46,7 +46,7 @@ export default function Headerbar() {
           <label>
             <FontAwesomeIcon icon="fa-solid fa-envelope" />
           </label>
-          <a rel="noreferrer" target="_blank" href={"mailto://" + data.email}>
+          <a rel="noreferrer" target="_blank" href={"mailto:" + data.email}>
             <span>{data.email}</span>
           </a>
         </div>
@@ -54,7 +54,7 @@ export default function Headerbar() {
           <label>
             <FontAwesomeIcon icon="fa-solid fa-phone" />
           </label>
-          <a rel="noreferrer" target="_blank" href={"tel://" + data.telefone}>
+          <a rel="noreferrer" target="_blank" href={"tel:" + data.telefone}>
             <span>{data.telefone}</span>
           </a>
         </div>
